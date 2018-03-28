@@ -1,0 +1,52 @@
+
+/*------ 导航菜单 ------*/
+.main_nav{ position: fixed; bottom: 0; z-index: 10; width: 100%; display: flex; color: #fff; height: 60rpx; line-height: 60rpx;  background-color: #1296DB;}
+.main_nav view{ width: 33%; text-align: center; border-right: 1px solid #fff; font-size: 32rpx;}
+
+/*------ 块级显示(4) ------*/
+.block_nav{ display: flex; font-size: 28rpx; margin: 16rpx 0rpx 16rpx 0rpx; padding: 32rpx; color: #4D4D4D; background-color: #fff; height: 17%;}
+.block_nav view{ text-align: center; width: 25%;}
+.block_nav image{ width: 80rpx; height: 80rpx;}
+.block_nav view view{ width: 100%; margin-top: 8rpx;}
+
+/*------ 图片轮播 ------*/
+.picture_by{height: 280rpx;}
+.picture_by image{ width: 100%; height: 100%;}
+
+/*------ 文字轮播(竖向) ------*/
+.written_by{ background-color: #fff; color: #4D4D4D;display: flex; height: 88rpx; padding: 16rpx 0rpx 4rpx 12rpx; letter-spacing: 2rpx;line-height: 36rpx;}
+.written_by view{ font-size: 28rpx; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; letter-spacing: 2px;}
+.written_by image{ width: 80rpx; height: 80rpx; margin-right: 8rpx;}
+.written_by swiper{ height: 80rpx; line-height: 80rpx; width: 80%;}
+
+/*------ 侧滑 ------*/
+.c-state1 { transform: rotate(0deg) scale(1) translate(100%, 0%); -webkit-transform: rotate(0deg) scale(1) translate(100%, 0%);}
+.page_bottom { min-height: 100%; width: 76%; position: fixed; background-color: #fff; z-index: 100; left: -76%; transition: All 0.2s ease; -webkit-transition: All 0.2s ease;}
+
+/*------ 蒙层 ------*/
+.modal{ z-index: 11; width:100%;height:100%;top:0px;background:rgba(0,0,0,0.4);position:fixed;}
+.modal view{ width:100%;height:100%;}
+
+/*------ 我的中心 ------*/
+.my_list_nav{ background-color: #1296DB; display: flex; height: 360rpx; line-height: 320rpx; color: #fff;}
+.my_list_nav view{ overflow:visible; text-overflow:ellipsis; white-space:nowrap; margin: 60rpx 0rpx 0rpx 40rpx; }
+.my_list_nav image{ width: 120rpx; height: 120rpx;  margin-top: 40rpx; border-radius: 50%;z-index: 10; position: absolute;left: 20rpx; top: 20rpx;}
+.my_list{ display: flex; font-size: 32rpx; height: 100rpx; line-height: 100rpx; padding-left: 12rpx; border-bottom: 2rpx solid #bbb;}
+.my_list image{ width: 60rpx; height: 60rpx; margin: 12rpx 20rpx 12rpx 12rpx;}
+.my_list view{ height: 88rpx; line-height: 88rpx;}
+icon { float: right; width: 24rpx; height: 24rpx; border-top: solid 4rpx #666; border-right: solid 4rpx #666; transform: rotate(45deg); margin-right: 20rpx;  margin-top: 10rpx; }
+
+/*------ 选择输入列表 ------*/
+.input_list{ font-size: 32rpx;}
+.input_list > view { display: flex; height: 60rpx; padding: 16rpx 0rpx 16rpx 16rpx; border-bottom: 1rpx solid #bbb;}
+.input_list > view view { width: 26%; white-space: pre; line-height: 60rpx;}
+.input_list > view input { width: 70%; padding-top: 4rpx; font-size: 30rpx;}
+.input_list > view picker { width: 80%; margin-top: 8rpx; color: #4d4d4d;}
+.icon { font-size: 28rpx; line-height: 40rpx; width: 12rpx;}  /* 勾选框 */
+
+/*------ 确定按钮 ------*/
+.subimit{ position: absolute; bottom: 460rpx; left: 3%; width: 94%; background-color: #1296db; color: #fff; font-size: 32rpx; font-weight: 600; border-radius: 8rpx;border: 0rpx; height: 80rpx;}
+.subimit_dis{ position: absolute;bottom: 460rpx;left: 3%;width: 94%;background-color: #bbb;color: #fff;font-size: 32rpx;font-weight: 600;border-radius: 8rpx; border: 0rpx;height: 80rpx;}
+
+/*------ 常见问题弹窗 ------*/
+.Surplus_remark{ background-color: #fff; width: 36%; height: 120rpx; position: fixed; -webkit-box-shadow:1px 1px 5px #ccc;box-shadow:1px 1px 5px #ccc; font-size: 28rpx;}
